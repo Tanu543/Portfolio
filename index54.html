@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/index.html#Technical%20Skills -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="./index54_files/sty.css">
+    </head>
+    <body>
+      <header>
+        <div class="user">
+            <img src="./index54_files/DC_1.jpg">
+            <h5 class="nm">Tanuja bai B</h5>
+            <p class="jb">student</p>
+        </div>
+        <nav class="nv">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#Details">Details</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#Education">Education</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#Technical%20Skills">Technical Skills</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#Project">Project</a></li>
+            </ul>
+        </nav>
+      </header>
+      <section class="Details" id="Details">
+        <h1 class="heading"><span>Details About Me</span></h1>
+        <div class="Row">
+            <div class="det">
+                <h3><span>Name:</span>Tanuja bai B</h3>
+                <h3><span>Age:</span>22</h3>
+                <h3><span>Gender:</span>Female</h3>
+                <h3><span>Email:</span>tanujasmg14@gmail.com</h3>
+                <h3><span>Phone_no:</span>6360601422</h3>
+                 </div>
+                 </div>
+        </section>
+        <section class="Education" id="Education">
+         <h1 class="title"><span>Education</span></h1><br><br><br>
+         <table>
+            <tbody><tr>
+                <th>Course</th>
+                <th>Name of the institute</th>
+                <th>University</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>Vedhavathi girls high school</td>
+                <td>Board</td>
+                <td>86</td>
+             </tr>
+             <tr>
+                <td>PUC</td>
+                <td>Kasturaba girls PU college</td>
+                <td>Board</td>
+                <td>74</td>
+             </tr>
+             <tr>
+                <td>BE</td>
+                <td>Akshaya institute of technology</td>
+                <td>VTU</td>
+                <td>7.8 CGPA</td>
+             </tr>
+         </tbody></table>
+        </section>
+        <br><br><br><br><br><br>
+        <section class="Technical skills" id="Technical skills">
+            <h1 class="head"><span>Technical skills</span></h1>
+            <div>
+                <ul id="lis">
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Oracle</li>
+                    <li>MySQL</li>
+                    <li>Manual Testing</li>
+                    <li>Automation Testing</li>
+                    <li>Data Structure</li>
+                    
+                </ul>
+            </div>
+        </section>
+        <section class="Project" id="Project">
+            <h1 class="heading"><span>Project</span></h1>
+            <div class="Row">
+                <div class="det">
+                   
+                    <h3><span>Title:</span>Smarty poultry farming</h3>
+                    <h3><span>Description:</span>The chicken farm monitoring system is proposed and developed based on wireless communication unit to transfer data using wireless module combined with sensors to enable to detect temperature, humidity, light and water level values. System carried out monitor and control using Arduino.  
+        </h3>
+                </div>
+            </div>
+        </section>
+      
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
